@@ -1,0 +1,7 @@
+git init  
+git add . ==== untracked to staged area
+git status
+git commit -m "first commit" ===== staged area to tracked area
+git rm --cached filename ==== staged area to untracked area
+rm testing.java  ==== delete the file
+git restore testing.java  ==== recover the file
